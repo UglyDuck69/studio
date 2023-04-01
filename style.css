@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'font';
+    src: url(fonts/AvertaDemoPE-Regular.otf);
+}
+@font-face {
+    font-family: 'proxima';
+    src: url(fonts/Fontspring-DEMO-proximanovacond-regular.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin-top: 42px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.plus{
+    font-family: 'proxima';
+    font-weight: 700;
+    font-size: 27.15px;
+    line-height: 33.07px;
+
+}
+.studio{
+    font-family: 'font';
+    font-weight: 400;
+    font-size: 27.15px;
+    line-height: 33.55px;
+}
+nav{
+    float: right;
+}
+.div{
+    height: 20px;
+    width: 645px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    font-family: 'font';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1%;
+    line-height: 19.78px;
+}
+.text{
+    padding: 0;
+    margin: 0;
+}
+.div2{
+    justify-content: center;
+    gap: 88px;
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 608px;
+    padding-left: 68px;
+}
+.h1{
+    font-family: 'font';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49.44px;
+}
+.h2{
+    margin-top: 40px;
+    font-family: 'font';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #565656;
+}
+.but1{
+    margin-top: 33px;
+    background-color:#2639ED;
+    width: 215px;
+    border: none;
+    height: 65px;
+    border-radius: 60px
+}
+.h3{
+    font-family: 'font';
+    font-weight: 400;
+    color: white;
+    letter-spacing: 6.5%;
+    font-size: 20px;
+    line-height: 24.72px;
+}
+.image{
+    background-image: url(img/image\ 8.png);
+    width: 754px;
+    height: 512px;
+    justify-content: end;
+    display: flex;
+}
+/*
+.cisrcle{
+    background-image: url(img/Ellipse\ 85.png);
+    width: 129px;
+    height: 129px;
+    z-index: 2;
+}
+*/
+.dot{
+    position: absolute;
+    background-image: url(img/Dot\ Ornament.png);
+    width: 404px;
+    height: 154px;
+    left: 68px;
+    margin-top: -34px;
+    z-index: -1;
+}
+.div3{
+    display: flex;
+    width: 100%;
+    height: 124px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.text1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49.44px;
+    font-family: 'font';
+}
+.text2{
+    font-family: 'font';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #757575;
+}
+.div5{
+    justify-content: end;
+    float: right;
+    margin-left: auto;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.img1{
+    margin-top: 130px;
+    width: 150px;
+    height: 49px;
+    align-items: center;
+}
+.img2{
+    margin-top: 130px;
+    width: 166px;
+    height: 52px;
+    align-items: center;
+}
+.img3{
+    margin-top: 130px;
+    width: 166px;
+    height: 27px;
+    align-items: center;
+}
+.img4{
+    margin-top: 130px;
+    width: 141px;
+    height: 42px;
+    align-items: center;
+}
+.div6{
+    width: 100%;
+    height: 867px;
+    background-color: antiquewhite;
+    margin-top: 124px;
+}
